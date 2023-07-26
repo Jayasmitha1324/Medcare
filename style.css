@@ -1,0 +1,148 @@
+body{
+    margin:0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Geneva, Tahoma, sans-serif;
+}
+
+.landing{
+    background-image:url("../media/bg.jpg") ;
+    background-size:cover;
+    background-position: center;
+    height:100vh;
+    color:rgb(12, 12, 12);
+}
+
+header a{
+    text-decoration: none; 
+    color:black
+}
+header{
+    display:flex;
+    padding:4em;
+}
+
+#logo{
+    flex:3;
+    font-size:4em;
+    font-style:oblique;
+    text-shadow:3px 3px 3px gray;
+}
+
+nav{
+    flex:1;
+    display:flex;
+} 
+
+nav a{
+    flex:2;
+    font-size:1.5em;
+    padding-left:1em;
+    }
+
+nav a:hover{
+    color:rgb(194, 116, 8);
+}
+
+.maintext{
+    display:flex;
+    flex-direction:column;
+    height:50vh;
+    justify-content: center;
+    padding: 2em;
+}
+
+.line1{
+    color:rgb(17, 13, 114); 
+    font-size : 2em;
+    font-weight:bold;
+    font-style:normal;
+    text-align: center;
+    text-shadow:2px 2px 2px violet;
+}     
+
+.line2{
+    color:rgba(187, 21, 143, 0.955);
+    font-size: 1.7em;
+    text-shadow: 2px 2px 2px rgb(1, 5, 64);
+}
+
+.maintext div{
+    margin-top:.75em;
+}
+
+.order{
+    width: 110px;
+    margin-top: 2em;
+    border-radius:10px;
+    padding:.7em;
+    background-color: rgb(205, 218, 222);
+    color: black;
+    border: 2px solid rgb(121, 121, 135) ;
+}
+
+.list{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    background-color: rgb(245, 235, 221);
+    margin: auto;
+    color:black;
+    font-size:1.2em;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+#List,#loco,#about{
+    background-color:  rgba(245, 235, 221,.4);
+    font-size:2em;
+    color:rgb(12, 5, 74);
+    display: flex;
+    justify-content: center;
+}
+.about{
+    background-color: rgba(245, 235, 221,.2);
+    color:black;
+    font-size:2em;
+    font-weight:lighter;
+    font-style: italic;
+    line-height:1.5cm;
+    text-align: center;
+    display: flex;
+}
+
+
+.list th{
+    color:rgb(15, 81, 129);
+    font-weight: bold;
+    font-size:1.3em;
+    font-weight: bolder;
+}
+
+table{
+    width: 100%;
+    padding:1em;
+}
+
+.location{
+    background-color: rgb(245, 235, 221);
+    color:black;
+    font-size:1em;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+}
+.location h2{
+    color:rgb(15, 81, 129);
+    text-align: center;
+    margin-bottom: .4em;
+}
+
+.location div{
+    flex:1;
+    padding:1em;
+}
+
+footer{
+    background-color: rgb(107, 107, 107);
+    color: black;
+    padding:.25em 1em;
+}
